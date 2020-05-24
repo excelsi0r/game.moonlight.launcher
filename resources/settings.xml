@@ -1,7 +1,55 @@
 <?xml version="1.0" ?>
 <settings version="1">
-    <setting type="ipaddress" id="ip" label="32004"/>
-    <setting type="select" id="res" label="32009" lvalues="720|1080|2160"/>
-    <setting type="slider" id="fps" label="32017" default="60" range="30,30,144" option="int"/>
-    <setting type="text" id="app" label="32001" default="Desktop"/>
+	<section id="game.moonlight.launcher">
+		<category id="general" label="" help="">
+			<group id="1" label="">
+                <setting id="ip" type="string" label="32004" help="">
+                    <level>0</level>
+                    <default/>
+                    <constraints>
+                        <allowempty>false</allowempty>
+                    </constraints>
+                    <control type="edit" format="ip">
+                        <heading>32004</heading>
+                    </control>
+                </setting>
+                <setting id="res" type="integer" label="32009" help="">
+                    <level>0</level>
+                    <default>1</default>
+                    <constraints>
+                        <options>
+                            <option label="720">0</option>
+                            <option label="1080">1</option>
+                            <option label="2160">2</option>
+                        </options>
+                    </constraints>
+                    <control type="list" format="string">
+                        <heading>32009</heading>
+                    </control>
+                </setting>
+                <setting id="fps" type="integer" label="32017" help="">
+                    <level>0</level>
+                    <default>60</default>
+                    <constraints>
+                        <minimum>30</minimum>
+                        <step>1</step>
+                        <maximum>144</maximum>
+                    </constraints>
+                    <control type="slider" format="integer">
+                        <popup>false</popup>
+                    </control>
+                </setting>
+                <setting id="app" type="string" label="32001" help="">
+                    <level>0</level>
+                    <default>Desktop</default>
+                    <constraints>
+                        <allowempty>false</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>32001</heading>
+                    </control>
+                </setting>  
+            </group>
+		</category>
+	</section>
 </settings>
