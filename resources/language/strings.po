@@ -1,0 +1,23 @@
+msgctxt "#0001"
+msgid "General"
+msgstr ""
+
+msgctxt "#0002"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Host"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Framerate"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Application"
+msgstr ""
