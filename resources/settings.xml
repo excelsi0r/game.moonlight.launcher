@@ -1,13 +1,7 @@
 <?xml version="1.0" ?>
 <settings version="1">
-	<section id="game.moonlight.launcher">
-		<category id="general" label="" help="">
-			<group id="1" label="">
-                <setting type="ipaddress" id="ip" label="32004"/>
-                <setting type="select" id="res" label="32009" lvalues="720|1080|2160"/>
-                <setting type="slider" id="fps" label="32017" default="60" range="30,30,144" option="int"/>
-                <setting type="text" id="app" label="32001" default="Desktop"/>
-            </group>
-		</category>
-	</section>
+    <setting type="ipaddress" id="ip" label="32004"/>
+    <setting type="select" id="res" label="32009" lvalues="720|1080|2160"/>
+    <setting type="slider" id="fps" label="32017" default="60" range="30,30,144" option="int"/>
+    <setting type="text" id="app" label="32001" default="Desktop"/>
 </settings>
