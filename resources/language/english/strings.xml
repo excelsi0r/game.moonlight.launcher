@@ -1,0 +1,13 @@
+<strings>
+    <string id="0001">General</string>
+    <string id="0002">Host</string>
+    <string id="0003">Resolution</string>
+    <string id="00031">720</string>
+    <string id="00032">1080</string>
+    <string id="00033">4k</string>
+    <string id="0004">Framerate</string>
+    <string id="00041">30</string>
+    <string id="00042">60</string>
+    <string id="00043">144</string>
+    <string id="0005">Bitrate (mpbs)</string>
+</strings>

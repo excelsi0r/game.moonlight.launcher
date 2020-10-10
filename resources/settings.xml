@@ -1,58 +1,9 @@
 <?xml version="1.0" ?>
 <settings version="1">
     <category id="general" label="0001" help="">
-        <group id="1" label="0002">
-            <setting id="ip" type="string" label="32004" help="">
-                <level>0</level>
-                <default/>
-                <constraints>
-                    <allowempty>false</allowempty>
-                </constraints>
-                <control type="edit" format="ip">
-                    <heading>32004</heading>
-                </control>
-            </setting>
-            <setting id="res" type="integer" label="32009" help="">
-                <level>0</level>
-                <default>1080</default>
-                <constraints>
-                    <options>
-                        <option label="720">0</option>
-                        <option label="1080">1</option>
-                        <option label="2160">2</option>
-                    </options>
-                </constraints>
-                <control type="list" format="string">
-                    <heading>32009</heading>
-                </control>
-            </setting>
-            <setting id="fps" type="integer" label="32017" help="">
-                <level>0</level>
-                <default>60</default>
-                <constraints>
-                    <options>
-                        <option label="30">0</option>
-                        <option label="60">1</option>
-                        <option label="144">2</option>
-                    </options>
-                </constraints>
-                <control type="list" format="string">
-                    <heading>32017</heading>
-                </control>
-            </setting>
-            <setting id="bitrate" type="integer" label="32018" help="">
-                <level>0</level>
-                <default>50</default>
-                <constraints>
-                    <minimum>10</minimum>
-                    <step>10</step>
-                    <maximum>100</maximum>
-                </constraints>
-                <control type="slider" format="integer">
-                    <popup>false</popup>
-                    <heading>32018</heading>
-                </control>
-            </setting>
-        </group>
+        <setting id="ipaddress" label="0002" type="ipaddress" default="192.168.1.0"/>
+        <setting id="res" label="0003" type="labelenum" lvalues="00031|00032|00033"/>
+        <setting id="fps" label="0004" type="labelenum" lvalues="00041|00042|00043"/>
+        <setting id="bitrate" label="0005" type="slider" default="50" range="10,10,100" option="int" />
     </category>
 </settings>
