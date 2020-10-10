@@ -76,3 +76,8 @@ wget -L https://github.com/excelsi0r/game.steamlink.launcher/archive/master.zip 
   - Steamlink auto-updates itself. During the update process it might need manual input for additional confirmation
     - Execute `steamlink` from a terminal or ssh connection to update it manually
     - Reboot
+
+## References
+
+[https://forum.kodi.tv/showthread.php?tid=29577](https://forum.kodi.tv/showthread.php?tid=29577)
+[https://kodi.wiki/view/Add-on_settings](https://kodi.wiki/view/Add-on_settings)
